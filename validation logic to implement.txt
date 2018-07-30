@@ -1,0 +1,19 @@
+
+void verify()
+int index=0;
+String verification="";
+for(int i=0;i<pswByUser.length();i++)
+{
+         index=randomstring.indexOf(userPsw.charAt(i));
+         verification+= col.charAt(index);
+}
+if(verification.equals(password))
+{
+       //login success
+}
+else
+{
+      //invalid login credentials
+}
+
+}
